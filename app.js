@@ -12,7 +12,7 @@ const maxBtn    =  document.querySelector("#maxBtn");
 playBtn.addEventListener("click",(e) =>{
 
     e.preventDefault();
-    window.location.href = '/gamepage.html';
+    window.location.href = '/connectFour/gamepage.html';
 
 
 });
