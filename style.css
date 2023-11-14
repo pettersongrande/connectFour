@@ -1,2 +1,85 @@
 /* INDEX PAGE */
 
+.landingPage {
+
+  
+    margin: auto;
+    border: hidden;
+    width: 75vw;
+    height: 85vh;
+    padding: 1em 10em 5em 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#navBtn {
+
+    position: fixed;
+    
+
+}
+
+#gameTitle {
+
+    position: relative;
+    margin: 1rem auto;
+    background-color: rgb(29,180,200);
+    background-image: linear-gradient(0deg, rgba(29,147,200,1) 33%, rgba(21,68,208,1) 100%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-size: 3rem;
+    font-family: 'Cairo Play', sans-serif;
+    font-weight: bold;
+    font-size: 7em;
+    text-align: center;
+
+}
+
+#introImg {
+
+    position: relative;
+    border: 1px solid;
+    border-radius: 10%;
+    width: 40vw;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    border-color: transparent;
+    cursor: pointer;
+    border-width: 1em;
+    padding: 1em;
+    
+    
+
+}
+
+#playBtn {
+
+    position: relative;
+    width: 15em;
+    height: 3em;
+    background-color: #0000ff;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 0.5em;
+    padding: 1em;
+    font-size: 1.2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+
+
+}
+
+
+
+
+
+
