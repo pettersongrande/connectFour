@@ -14,9 +14,10 @@
 
 }
 
+
 #navBtn {
 
-    position: fixed;    
+    position: fixed; 
     
 }
 
@@ -51,13 +52,13 @@
     -webkit-text-fill-color: transparent;
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
-    font-size: 3rem;
+    font-size: 7rem;
     font-family: 'Cairo Play', sans-serif;
     font-weight: bold;
-    font-size: 7em;
     text-align: center;
 
 }
+
 
 #introImg {
 
@@ -94,21 +95,144 @@
 
 }
 
+.startBtn {
+
+    position: relative;
+    
+    width: 15em;
+    height: 3em;
+    background-color: rgb(29,180,200);
+    background-image: linear-gradient(0deg, rgba(29,147,200,1) 33%, rgba(21,68,208,1) 100%);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 0.5em;
+    padding: 1em;
+    font-size: 1em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
 button:hover {
     cursor: pointer;
     background-color: #ef476f;
   }
 
 
-#text-box {
-    display: none;
-    border: 1px solid;
+
+/* GAMEPAGE */
+
+
+#gamePage {
+
+    margin: auto;
+    border: hidden;
+    width: 75vw;
+    height: 85vh;
+    padding: 1em 10em 5em 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
-/* gamepage */
+#gameTitlePage2 {
+
+
+    position: relative;
+    margin: 1rem auto;
+    background-color: rgb(29,180,200);
+    background-image: linear-gradient(0deg, rgba(29,147,200,1) 33%, rgba(21,68,208,1) 100%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-size: 7rem;
+    font-family: 'Cairo Play', sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.startBtn {
+
+    position: relative;
+    
+    width: 15em;
+    height: 3em;
+    background-color: rgb(29,180,200);
+    background-image: linear-gradient(0deg, rgba(29,147,200,1) 33%, rgba(21,68,208,1) 100%);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 0.5em;
+    padding: 1em;
+    font-size: 1em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+#game {
+
+
+    /* display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(7, 1fr); */
+    border: solid;
+    border-radius: 5%;
+    padding: 2em;
+    /* width: 90vw;
+    height: 90vh;
+    align-items: center; */
+
+
+}
 
 
 
+/* game board table */
 
+#board td {
+    width: 65px;
+    height: 65px;
+    border: solid 1px #666;
+    border-radius: 50%;
+  }
+  
+  /* pieces are div within game table cells: draw as colored circles */
+  
+  .piece {
+    /* TODO: make into circles */
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;    
+  }
 
+  .piece.red {
+    background-color: red;
+  }
+  
+  .piece.blue {
+    background-color: blue;
+  }
+  
+  /* TODO: make pieces red/blue,  depending on player 1/2 piece */
+  
+  /* column-top is table row of clickable areas for each column */
+  
 
+  
+td:hover {
+    background-color: gold;
+    cursor: pointer;
+  }
+  

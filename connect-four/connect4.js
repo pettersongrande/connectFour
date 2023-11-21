@@ -23,8 +23,9 @@ function makeBoard() {
 
 function makeHtmlBoard() {
   // TODO: get "htmlBoard" variable from the item in HTML w/ID of "board"
+  const htmlBoard = document.getElementById("board");
 
-  // TODO: add comment for this code
+  // Create the top row in the game board
   var top = document.createElement("tr");
   top.setAttribute("id", "column-top");
   top.addEventListener("click", handleClick);
@@ -52,6 +53,9 @@ function makeHtmlBoard() {
 
 function findSpotForCol(x) {
   // TODO: write the real version of this, rather than always returning 0
+
+  
+
   return 0;
 }
 
@@ -89,10 +93,18 @@ function handleClick(evt) {
   }
 
   // check for tie
+  
+
   // TODO: check if all cells in board are filled; if so call, call endGame
 
   // switch players
   // TODO: switch currPlayer 1 <-> 2
+}
+
+
+function checkforTie() {
+  
+
 }
 
 /** checkForWin: check board cell-by-cell for "does a win start here?" */
