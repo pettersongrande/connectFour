@@ -5,7 +5,7 @@ const infoBtn   = document.querySelector("#infBtn");
 playBtn.addEventListener("click",(e) =>{
 
     e.preventDefault();
-    window.location.href = '/connectFour/gamepage.html';
+    window.location.href = '/gamepage.html';
 });
 
 infoBtn.addEventListener("click",(e)=>{
