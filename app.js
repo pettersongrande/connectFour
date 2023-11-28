@@ -18,10 +18,6 @@ function makeBoard() {
     board = [];
     for (let y=0; y < HEIGHT; y++) {
         board[y] = new Array(WIDTH).fill(null);
-        // board[y] = [];
-        // for(let x=0; x < WIDTH; x++) {
-        //     `board[y][x]` = null
-        // }
     }
     console.log('board', board);
 };
@@ -92,12 +88,7 @@ function endGame(msg){
 };
 
 function handleClick(evt){
-    // console.log('evt.target.id', evt.target.id);
-    // console.log('(evt.target.id).split('-')', (evt.target.id).split('-'));
     const x = +((evt.target.id).split('-')[1]);
-    // console.log('x', x);
-    // console.log('isNaN()', isNaN(x));
-
     const y = findSpotForCol(x);
     if (y === null) {
         return;
@@ -163,6 +154,6 @@ function checkForWin() {
       }
     };
 }
- 
+
 makeBoard();
 makeHtmlBoard();
