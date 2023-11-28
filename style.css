@@ -222,7 +222,7 @@ button .playBtn:hover {
         border: hidden;
         width: 75vw;
         height: 85vh;
-        padding: 5em 4em 3em 3em;
+        padding: 1em 4em 3em 3em;
         display: flex;
         flex-direction: column;
         align-items: center; 
