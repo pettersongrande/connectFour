@@ -21,7 +21,7 @@
   
         margin: auto;
         border: hidden;
-        width: 55vw;
+        width: 65vw;
         height: 65vh;
         padding: 5em 4em 3em 1em;
         display: flex;
@@ -122,7 +122,7 @@
         position: relative;
         border: 1px solid;
         border-radius: 10%;
-        width: 75vw;
+        width: 60vw;
         height: auto;
         background-position: center;
         background-size: cover;
