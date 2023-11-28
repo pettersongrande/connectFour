@@ -14,7 +14,7 @@
 
 }
 
-@media (min-width: 300px){
+@media (max-width: 600px){
 
     .landingPage {
 
@@ -69,7 +69,7 @@
 
 }
 
-@media (min-width: 300px){
+@media (max-width: 600px){
 
     #gameTitle {
 
@@ -114,7 +114,7 @@
 }
 
 
-@media(max-width:300px) {
+@media(max-width:600px) {
 
 
     #introImg {
@@ -156,7 +156,7 @@
 
 }
 
-@media (min-width: 300px){
+@media (max-width: 600px){
 
 
     .playBtn {
@@ -186,7 +186,7 @@ button .playBtn:hover {
     cursor: pointer;
   }
 
-  @media (min-width: 300px){
+  @media (max-width: 600px){
 
     button:hover {
         cursor: pointer;
@@ -357,6 +357,15 @@ td:hover {
     background-color: gold;
     cursor: pointer;
   }
+
+@media (max-width: 600px){
+
+    td:hover {
+        background-color: gold;
+        cursor: pointer;
+      }
+
+}
 
 
 
